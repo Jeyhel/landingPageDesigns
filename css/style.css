@@ -1,7 +1,89 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: 'Avenir';
+    src: url(/storage/font/AnyConv.com__AvenirLTStd-Roman.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir';
 }
+
+body {
+    margin: 70px;
+}
+.main{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+h1 {
+    color: #252525;
+    font-size: 5rem;
+    margin-bottom: 5%;  
+    margin-left: 2%;
+}
+h2 {
+    color: #5f5959;
+    font-size: 3rem;
+  
+}
+
+p{
+    color: #252525;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 120px;
+
+
+}
+.grid1{
+    flex-direction: column;
+    width: 140%;
+    height: 45%;
+    margin-left: 40px;
+ 
+}
+.grid1 img{
+
+    margin-bottom: auto;
+    margin-right: 28px;
+    width: 70%;
+}
+
+.grid2{
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    height: 45%;
+    margin-left: 10px;
+
+ 
+}
+.grid2 img{
+    margin-bottom: auto;
+    margin-right: 28px;
+    width: 70%;
+   
+}
+
+.grid3{
+    flex-direction: column;
+    width: 140%;
+    height: 45%;
+    margin-left: 20px;
+  
+
+}
+.grid3 img{
+    margin-bottom: auto;
+    margin-right: 100px;
+    width: 70%;
+}
+
