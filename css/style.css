@@ -1,14 +1,21 @@
 @import url(variables.css);
 @font-face {
-    font-family: 'Avenir';
-    src: url(/storage/font/AnyConv.com__AvenirLTStd-Roman.ttf);
+    font-family: 'Bold';
+    src: url(/storage/font/PlayfairDisplay-Bold.ttf);
+
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(/storage/font/WorkSans-Regular.ttf);
+    
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Avenir';
+    font-family: 'Work Sans';
 }
+
 
 body {
     margin: 70px;
@@ -16,48 +23,78 @@ body {
 .main{
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
+  
     
 }
 
+.grid1_{
 
-h1 {
-    color: #252525;
-    font-size: 5rem;
-    margin-bottom: 5%;  
-    margin-left: 2%;
+    width: 5%;
+    height: 5%;
+    margin-bottom: 5%;
+}
+.grid1_1{
+   
+    width: 50%;
+    height: 45%;
+    margin-left: 50px;
+    margin-top: 4%;
+    font-size: 40%;
 }
 
-p{
+.grid1_1 h1{
+
+    color: #252525;
+    font-size: 4.8rem;
+    margin-bottom: 5%;  
+    margin-left: 2%;
+    font-family: Bold;
+ 
+  
+}
+.grid1_1 p{
     color: #252525;
     font-size: 27px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-right: 120px;
 
+}
 
-}
-.grid1{
-    flex-direction: column;
-    width: 43%;
-    height: 45%;
-    margin-left: 40px;
-    background-color: aqua;
-}
-button {
+.b1 {
     padding: 20px 60px;
     background-color: #252525;
     color: white;
     border: none;
     border-radius: 20px;
-    margin: auto;
-    font-size: 20px;
+    margin: 2.5%;
+    font-size: 25px;
+}
+.b2 {
+    padding: 20px 60px;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 2.5%;
+    font-size: 25px;
+}
+.grid1_1 img{
+
+    width: 90%;
+    height: 10%;
+    margin-top: 8%;
+
 }
 .grid2 {
 
-    margin-bottom: auto;
-    margin-left: 50%;
-    background-color: red;
-    width: 70%;
+    margin-top: -6%;
+    margin-left: -0%;
+    width: 40%;
+
+}
+.grid2 img{
+
+    width: 95%;
+    height: 100%;
 }
