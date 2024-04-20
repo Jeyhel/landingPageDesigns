@@ -1,7 +1,97 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: 'Poppin Bold';
+    src: url(/storage/font/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Poppin Regular';
+    src: url(/storage/font/Poppins-Regular.ttf);
+
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppin Regular';
+}
+
+body{
+    max-width: 1440px;
+    max-height: 954px;
+    position: relative;
+    margin: auto;
+    padding: 0px 65px 0 65px;
+    background: rgb(172, 172, 172);
+    background: rgb(161, 161, 161)
+   
+    /* background: #E5E5E5; */
+}
+
+.img1{
+    width: 462px;
+    height: 508px;
+    position: absolute;
+    left: 64px;
+    top: 418px;
+}
+.img2{
+  
+    width: 537.4px;
+    height: 512px;
+    position: absolute;
+    left: 838.6px;
+    top: 0px;
+
+}
+.main {
+    position: absolute;
+}
+.main h1,p{
+    background: transparent;
+    color: #363830;
+}
+.flex1 {
+    position: absolute;
+    width: 756px;
+    height: 310px;
+    left: 231px;
+    top: 64px;
+}
+.flex1 h1{
+    width: 756px;
+    height: 104px;
+    font-size: 88px;
+    margin-bottom: 16px;
+}
+.flex1 p{
+    width: 659px;
+    height: 108px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.flex1  button{
+    width: 182px;
+    height: 66px;
+    background: #363830;
+    border-radius: 36px;
+    font-size: 24px;
+    color: white;
+    border: 2px solid gray;
+}
+.flex2 {
+    position: absolute;
+    width: 984px;
+    height: 272px;
+    top: 591px;
+    left: 347px;
+    display: flex;
+    flex-direction: row;
+    background: #b6bebe;
+    border-radius: 144px;
+    justify-content: center;
+    gap: 88%;
+  
+  
+
 }
