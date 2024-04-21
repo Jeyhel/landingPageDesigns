@@ -1,7 +1,69 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: 'Avenir Heavy';
+    src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir Roman';
+}
+body{
+    max-width: 1440px;
+    max-height: 954px;
+
+}
+
+.flex1{
+    margin-left: 20%;
+  
+    
+
+}
+.flex1 img{
+    width: 50%;
+    margin-left:70%;
+    margin-top: -85%;
+}
+h1{
+    width: 40%;
+    font-size: 72px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+  
+}
+p{
+    width: 45%;
+    margin-bottom: 2%;
+    font-size: 28px;
+}
+button{
+    width: 182px;
+    height: 66px;
+    background-color: black;
+    border-radius: 36px;
+    border-color: black;
+    border: 0;
+    color: white;
+    font-size: 24px;
+
+}
+.flex2{
+    margin-left: 4%;
+    width: 100%;    
+}
+.flex2 img{
+  
+    margin-left: 15.2%;
+    margin-top: 5%;
+    width: 97.3%;
+   
 }
