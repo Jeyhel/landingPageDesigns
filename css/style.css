@@ -18,31 +18,51 @@
 }
 body{
     max-width: 1440px;
-    max-height: 954px;
-    
+    max-height: 1024px;
+    position: relative;
+    margin: auto;
 
 }
-main{
+.main {
+    position: absolute;
+    margin: 64px;
+}
 
+.img1{
+    position: absolute;
+    left: 383px;
+    top: 524px;
+}
+.img2{
+    position: absolute;
+    left: 723px;
+    top: 282px;
+    
+}
+.img3{
+    position: absolute;
+    left: 1063px;
+    top: 67px;
+    
 }
 .flex1{
-    margin-left: 20%;
-    margin-top: 5%;
-}
-.flex2 img{
-    margin-top: 10%;
-    margin-left: 25%;
+ 
+  
 }
 h1{
-    width: 40%;
+    width: 515px;
+    height: 264px;
     font-size: 72px;
-    margin-bottom: 2%;
+    font-family:  'Avenir Heavy';
+    margin-bottom: 65px;
+   
 
 }
 p{
-    width: 42%;
-    margin-bottom: 2%;
+    width: 519px;
+    height: 99px;
     font-size: 28px;
+    margin-bottom: 24px;
 }
 button{
     width: 182px;
@@ -50,23 +70,43 @@ button{
     background-color: black;
     border-radius: 36px;
     border-color: black;
-    border: 0;
     color: white;
     font-size: 24px;
+    margin-top: 24px;
 
 }
-.flex3{
+
+
+
+.star{
+
+    position: absolute;
+    left: 596px;
+    top: 388px;
+
+}
+.starrr{
    
+    position: absolute;
+    left: 1095px;
+    top: 541px;
+
 
 }
-.flex3 img{
-    margin-top: -90%;
-    margin-left:60%;
+.spiral{
+    position: absolute;
+    left: 142px;
+    top: 674px;
 
 }
-.primero{
-
-    margin-left:50%;
-    position:relative;
+.lines{
+    position: absolute;
+    left: 498px;
+    top: 91px;
+}
+.man{
+    position: absolute;
+    left: 708px;
+    top: 838px;
 
 }
