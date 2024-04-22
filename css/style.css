@@ -1,5 +1,8 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: face;
+    src: url();
+}
 *{
     padding: 0;
     margin: 0;
