@@ -8,3 +8,122 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    position: relative;
+    margin: auto;
+
+}
+.main {
+    position: absolute;
+    margin: 64px;
+}
+.starB{
+    position: absolute;
+    left: 311px;
+    top: 237px;
+    z-index: 2;
+
+}
+.colors{
+    margin-left: 35%;
+    width: 446px;
+    height: 711px;
+ 
+}
+.starS{
+    position: absolute;
+    left: 921px;
+    top: 535px;
+    z-index: 2;
+    
+}
+.img1{
+    position: absolute;
+    left: 64px;
+    top: 432px;
+    
+}
+.img2{
+    position: absolute;
+    left: 964px;
+    top: 64px;
+    
+}
+.flex1 {
+    text-align: center;
+
+
+   
+}
+.explosion{
+    position: absolute;
+    left: 93px;
+    top: 256.04px;
+}
+.sun{
+    position: absolute;
+    left: 1135px;
+    top: 647px; 
+}
+
+h1{
+    position: absolute;
+    justify-items: center;
+    left: 565.5px;
+    top: 172px;
+    width: 20%;
+    font-size: 112px;
+} 
+.flex1 p{
+    position: absolute;
+    justify-items: center;
+    left: 565.5px;
+    top: 600px;
+    width: 20%;
+    font-size: 24px;
+
+}
+button{
+    border-radius: 36px;
+    padding:  20px 40px;
+    background: black;
+    font-size: 24px;
+    color: white;
+    left: 627.5px;
+    top: 748px;
+    position: absolute;
+    
+}
+.flex2{
+    width: 30%;
+    left: 3%;
+    top: 0;
+}
+.flex2 p{
+    width: 30%;
+    left: 70%;
+    top: 875%;
+}
+
+.flex3 p{
+    width: 30%;
+    left: 3%;
+    top: 100%;
+}
+.flex2 h2 {
+
+    margin-left: -64%;
+    margin-top: -150%;
+    color: gray;
+  
+  
+}
+
+
+
+
+
+
