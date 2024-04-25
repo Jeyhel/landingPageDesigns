@@ -1,7 +1,72 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url(storage/font/SpaceMono-Regular.ttf);
+}
+@font-face {
+ 
+    font-family: 'SpaceMono-Regular';
+    src: url(storage/font/SpaceMono-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    background-image: linear-gradient(to right, #F8D696, #EABF61);
+
+}
+.main {
+    position: relative;
+    margin: 64px;
+    display: flex;
+
+}
+.imgW{
+    position: absolute;
+    left: 500px;
+    top: -8%;
+
+}
+.circle{
+    position: absolute;
+    left: 60px;
+    top: 20%;
+    margin-left: 9%;
+  
+}
+.flex1 {
+    width: 40%;
+   margin-left: 10%;
+
+}
+h1{
+    font-size: 72px;
+    margin-top: 50%;
+    margin-bottom: 5%;
+
+}
+p{
+    font-size: 24px;
+    margin-bottom: 5%;
+    font-family: 'SpaceMono-Regular';
+    width: 90%;
+    letter-spacing: 4px;
+    line-height: 30px;
+
+}
+button{
+
+    border-radius: 40px;
+    padding: 20px 40px ;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
