@@ -1,7 +1,64 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: 'Lato-Bold' ;
+    src: url(/storage/font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular' ;
+    src: url(/storage/font/Lato-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+.main {
+    position: absolute;
+    margin: 64px;
+    display: flex;
+}
+.img{
+    position: absolute;
+    left: 603px;
+    top: 47px;
+
+}
+.page {
+    
+    width: 45%;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: -70%;
+    text-align: center;
+    
+}
+.page h1{
+    font-size: 80px;
+    margin-bottom: 2%;
+    font-family: 'Lato-Bold';
+}
+p{
+    font-size: 24px;
+    font-family: 'Lato-Regular';
+    width: 95%;
+    margin-bottom: 5%
+}
+button{
+
+    border-radius: 40px;
+    padding: 20px 40px;
+    background: black;
+    color: #FFF;
+    font-family: 'Lato-M';;
+    font-size: 22px;
 }
