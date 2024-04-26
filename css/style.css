@@ -1,7 +1,81 @@
 @import url(variables.css);
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(/storage/font/RobotoMono-Bold.ttf);
+}
+@font-face {
+    font-family: 'RobotoMono-Regular';
+    src: url(/storage/font/RobotoMono-Regular.ttf);
+}
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.flex1{
+  display: flex; 
+  align-items: center; 
+  
+  }
+  
+.texto {
+    flex-direction: column;
+    margin: 4% auto; 
+    margin-left: 5%; 
+}
+
+.texto h1 {
+    font-family: 'RobotoMono';
+    font-size: 4rem;
+
+}
+  
+.texto p {
+    font-family: 'RobotoMono-Regular';
+    font-size: 1.5rem;
+
+}
+
+button{
+    background: #333333;
+    padding: 20px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+  
+
+}
+  .imagen {
+    
+    margin-top: 3%;
+    width: 37%;
+    
+}
+
+.flex2{
+  display: flex;
+  margin-top: 5%;
+  align-content: center;
+}
+
+.cuadro{
+    width:100%;
+    margin-left: 5%;
+    gap: 10%;
+   
+}
+.img1{
+
+}
+.img2{
+    
+}
+.img3{
+    
+}
+.img4{
+    
 }
